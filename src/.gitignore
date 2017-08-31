@@ -1,0 +1,6 @@
+dumps/
+.idea
+.vscode
+.DS_Store
+*.pyc
+.ipynb_checkpoints*
