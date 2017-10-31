@@ -32,11 +32,6 @@ To run the default examples, you should be inside the *src* directory and then t
 
 `python -m examples.[problem_name] [run]`
 
-If you use the PyCharm IDE you can use it to open the *src* folder, and them, for the run configurations do the following:
-
-![](https://www.dropbox.com/s/prz16aajb8md2es/Screen%20Shot%202017-04-27%20at%2010.02.09.png?dl=1)
-
-
 ### Support
 
 Any questions, comments or suggestion should be directed to Nuno Lourenço ([naml@dei.uc.pt](mailto:naml@dei.uc.pt))
