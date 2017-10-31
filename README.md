@@ -18,7 +18,7 @@ Structured Grammatical Evolution (SGE) is a recent Grammatical Evolution (GE) va
 This project corresponds to a new implementation of the SGE engine. SGE has been criticised for the fact that we need to specify the maximum levels of recursion in order to remove it from the grammar beforehand. In this new version we specify the maximum tree depth (similarly to what happens in standard tree-based GP), and the algorithm adds the mapping numbers as required during the evolutionary search. Thus, we do not need to pre-process the grammar to remove the recursive productions. Additionally, we provide mechanisms and operators to ensure that the generated trees are always within the allowed limits.
 
 
-As in for the SGE frameowork we provide the implementations of some problems that we used to test the DSGE. Extending it to your own needs should be fairly easy. 
+As in for the SGE framework we provide the implementations of some problems that we used to test the DSGE. Extending it to your own needs should be fairly easy. 
 
 
 When running the framework a folder called *dumps* will be created together with an additional one that corresponds to the experience. Inside, there will be directories for each run. Each run folder contains snapshots of the population at a given generation, and a file called *progress_report.csv*,  which is assembled by the end of the evolutionary run. By default we take snapshots of the population at the following generations: 0,25 and 50. This can be changed, together with all the numeric values in the *configs* folder.
@@ -36,10 +36,6 @@ If you use the PyCharm IDE you can use it to open the *src* folder, and them, fo
 
 ![](https://www.dropbox.com/s/prz16aajb8md2es/Screen%20Shot%202017-04-27%20at%2010.02.09.png?dl=1)
 
-##### Additional info
-Grant Dick implemented SGE in C, as a module of his framework: [libgges: Grammar-Guided Evolutionary Search ](https://github.com/grantdick/libgges#libgges-grammar-guided-evolutionary-search)
-
-If you prefer C instead of python, please refer to his work.
 
 ### Support
 
