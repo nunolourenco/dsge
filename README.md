@@ -13,6 +13,15 @@ Structured Grammatical Evolution (SGE) is a recent Grammatical Evolution (GE) va
   year={2016},
   publisher={Springer}
 }
+
+@incollection{lourencco2018structured,
+  title={Structured grammatical evolution: a dynamic approach},
+  author={Louren{\c{c}}o, Nuno and Assun{\c{c}}{\~a}o, Filipe and Pereira, Francisco B and Costa, Ernesto and Machado, Penousal},
+  booktitle={Handbook of Grammatical Evolution},
+  pages={137--161},
+  year={2018},
+  publisher={Springer}
+}
 ```
 
 This project corresponds to a new implementation of the SGE engine. SGE has been criticised for the fact that we need to specify the maximum levels of recursion in order to remove it from the grammar beforehand. In this new version we specify the maximum tree depth (similarly to what happens in standard tree-based GP), and the algorithm adds the mapping numbers as required during the evolutionary search. Thus, we do not need to pre-process the grammar to remove the recursive productions. Additionally, we provide mechanisms and operators to ensure that the generated trees are always within the allowed limits.
