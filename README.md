@@ -1,5 +1,5 @@
 # DSGE: Dynamic Structured Grammatical Evolution
-
+A python3 version is available here: https://github.com/nunolourenco/sge3
 Structured Grammatical Evolution (SGE) is a recent Grammatical Evolution (GE) variant that aims at addressing some of its locality and redundancy issues. The SGE distinctive feature is having a one-to-one correspondence between genes and non-terminals of the grammar being used. If you use this code, a reference to the following work would be greatly appreciated:
 
 ```
